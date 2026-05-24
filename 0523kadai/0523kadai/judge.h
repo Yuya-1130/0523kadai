@@ -1,5 +1,5 @@
 #pragma once
+extern bool gameClear;
 
-int j(int ,int);
+bool Result(int , int);
 
-int Result(int ,bool);

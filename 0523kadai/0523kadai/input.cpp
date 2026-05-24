@@ -3,22 +3,22 @@
 #include <stdlib.h>
 #include "input.h"
 
-
-int f(int answer )
+int getrandom(int answer)
 {
-	srand((unsigned int)time(NULL));
-	 answer = rand() % 10;
-	 return answer;
-
-	 
+	int t = (int)time(nullptr);
+	answer = t % 10;
+	return answer;
 }
-int newInput(int input)
+
+int getInput(int input)
 {
 	input;
 	scanf_s("%d", &input);
-
-	return 0;
+	return input;
 }
+
+	
+
 
 
 

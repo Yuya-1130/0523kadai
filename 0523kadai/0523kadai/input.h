@@ -1,6 +1,7 @@
 #pragma once
 
+extern int answer, input;
 
-int f(int);
+int getrandom(int);
 
-int newInput(int);
+int getInput(int);
